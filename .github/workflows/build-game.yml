@@ -28,5 +28,5 @@ jobs:
         working-directory: ./src
       
       - name: webpack
-        run: ./node_modules/.bin/webpack .
+        run: ./node_modules/.bin/webpack
         working-directory: ./
